@@ -25,3 +25,13 @@ def _hash(s):
 nltk.download('stopwords')
 
 from inverted_index_colab import *
+import pyspark
+from pyspark.sql import *
+from pyspark.sql.functions import *
+from pyspark import SparkContext, SparkConf
+from pyspark.sql import SQLContext
+from pyspark.ml.feature import Tokenizer, RegexTokenizer
+
+
+
+
