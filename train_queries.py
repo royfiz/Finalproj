@@ -15,5 +15,6 @@ f.close()
 
 '''10 test queries and 20 train queries'''
 train_queries, test_queries = train_test_split(list(queries_to_relavent_docs.keys()), test_size=10, shuffle=True)
+
 for quer in test_queries:
     print(quer)
