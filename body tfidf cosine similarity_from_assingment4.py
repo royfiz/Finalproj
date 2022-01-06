@@ -203,20 +203,6 @@ def search_body_beckend(query, body_index, words, pls):
     return top_with_title
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 data = ['The sky is blue and we can see the blue sun.',
         'The sun is bright and yellow.',
         'here comes the blue sun',
