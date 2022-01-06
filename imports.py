@@ -19,9 +19,6 @@ from google.cloud import storage
 
 import hashlib
 
-def _hash(s):
-    return hashlib.blake2b(bytes(s, encoding='utf8'), digest_size=5).hexdigest()
-
 nltk.download('stopwords')
 
 from inverted_index_colab import *
@@ -33,5 +30,16 @@ from pyspark.sql import SQLContext
 from pyspark.ml.feature import Tokenizer, RegexTokenizer
 
 
+from inverted_index_colab import *
 
+import re
+from collections import defaultdict, Counter
+import math
+import nltk
+from nltk.corpus import stopwords
+
+nltk.download('stopwords')
+import numpy as np
+import pandas as pd
+import spark
 

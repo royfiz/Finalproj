@@ -1,0 +1,2 @@
+import inverted_index_colab
+

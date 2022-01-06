@@ -1,15 +1,4 @@
-from inverted_index_colab import *
-
-import re
-from collections import defaultdict, Counter
-import math
-import nltk
-from nltk.corpus import stopwords
-
-nltk.download('stopwords')
-import numpy as np
-import pandas as pd
-import spark
+from imports import *
 
 # TODO: DL
 
