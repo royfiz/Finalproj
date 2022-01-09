@@ -1,6 +1,5 @@
 from imports import *
 
-
 # Load the page views file
 PAGE_VIEW_FILE_NAME = "pageviews-202108-user.pkl"
 with open(PAGE_VIEW_FILE_NAME, 'rb') as f:

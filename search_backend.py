@@ -1,4 +1,3 @@
-from imports import *
 from dicts_and_indexes import *
 from get_page_rank_backend import *
 from get_pageviews_backend import *
@@ -71,7 +70,7 @@ def search_anchor_for_opt(query_tokens, index):
     relavent_docs = {}
     for term in np.unique(query_tokens):
         if term in index.words:
-            list_of_docs = read_posting_anchor(term, index)
+            list_of_docs = read_posting(term, index)
             for dest_id, flag in list_of_docs:
                 if dest_id == 0:
                     continue
