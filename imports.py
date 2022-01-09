@@ -28,3 +28,20 @@ from pyspark.sql import SQLContext
 from pyspark.ml.feature import Tokenizer, RegexTokenizer
 
 from nltk.corpus import stopwords
+xxx = 3
+# import csv
+# mydict = dict()
+# with open('pagerank.csv', mode='r') as infile:
+#     reader = csv.reader(infile)
+#     for rows in reader:
+#         mydict[int(rows[0])] = float(rows[1])
+#
+# output = open('pagerank_dict.pkl', 'wb')
+# pickle.dump(mydict, output)
+# output.close()
+
+
+with open( f'{"pagerank_dict"}.pkl', 'rb') as f:
+  pagerank_dict  = pickle.load(f)
+
+pagerank_dict[3434750]
