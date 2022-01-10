@@ -90,7 +90,7 @@ for page in pagerank_dict:
 
 # weights_dict:
 weights_dict = {"title": 1, "body": 1,
-                "anchor": 1, "pageview": 1, "pagerank": 0}
+                "anchor": 1/3, "pageview": 2/3, "pagerank": 1/3}
 
 
 # merge:

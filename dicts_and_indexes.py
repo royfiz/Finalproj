@@ -1,7 +1,6 @@
 import pickle
 from inverted_index_colab import *
 
-
 # indexes read:
 with open(f'{"index_text"}.pkl', 'rb') as f:
     index_body = pickle.load(f)
@@ -40,6 +39,7 @@ def read_posting(word, index):
             n_read = n_bytes
         else:
             n_read = BLOCK_SIZE - offset
+
         b.append(f.read(n_read))
         n_bytes -= n_read
         post_before = b''.join(b)
@@ -47,7 +47,7 @@ def read_posting(word, index):
             doc_id = int.from_bytes(post_before[i * TUPLE_SIZE:i * TUPLE_SIZE + 4], 'big')
             tf = int.from_bytes(post_before[i * TUPLE_SIZE + 4:(i + 1) * TUPLE_SIZE], 'big')
             posting_list.append((doc_id, tf))
-        return posting_list
+    return posting_list
 
 
 with open(f'{"Dl_body"}.pkl', 'rb') as f:
