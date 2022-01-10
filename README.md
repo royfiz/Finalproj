@@ -19,24 +19,24 @@
 מילונים.
 
 10. Dl_body.pkl
-12. dl_title.pkl
-14. id_title_dict.pkl - ממפה מסמך לכותרת שלו
-16. pagerank.csv - ממפה מסמך לציון
-17. pageviews-202108-user.pkl - ממפה מסמך למספר הצפיות
+11. dl_title.pkl
+12. id_title_dict.pkl - ממפה מסמך לכותרת שלו
+13. pagerank.csv - ממפה מסמך לציון
+14. pageviews-202108-user.pkl - ממפה מסמך למספר הצפיות
 
 בנוסף העלנו את המחברת של הניסויים שערכנו:
 
-Expiraments.ipynb
+15.Expiraments.ipynb
 
 
-Index_and_object_initaliztion - gcp
+יצירת אינדקסים ואובייקטים בGCP
 
-15.	Index_body_and_title.ipynb. -  הקובץ שיוצר את האינדקס לגוף ולכותרת המסמכים
-16.	PageRank.ipynb       -   סקיפט ליצירת   pr
-17.	Index_anc_creation.ipynb. – סקריפט ליצירת אינדקס לanc 
+16.	Index_body_and_title.ipynb. -  הקובץ שיוצר את האינדקס לגוף ולכותרת המסמכים
+17.	PageRank.ipynb       -   סקיפט ליצירת   pr
+18.	Index_anc_creation.ipynb. – סקריפט ליצירת אינדקס לanc 
 
-Index classes (gcp)
+מחלקות האינדקסים
 
-18.	 Inverted_anc2.py. -  קלאס ליצירת אינדקס לanc
-19.	Inverted_title.py. אינדקס ליצירת ה כותרת
-20.	Inverted_index_gcp.  -      קובץ ליצירת האינדקס לגוף הטקסט
+19.	 Inverted_anc2.py. -  קלאס ליצירת אינדקס לanc
+20.	Inverted_title.py. אינדקס ליצירת ה כותרת
+21.	Inverted_index_gcp.  -      קובץ ליצירת האינדקס לגוף הטקסט
