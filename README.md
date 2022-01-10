@@ -29,12 +29,13 @@
 Expiraments.ipynb
 
 
-Index_and_object_initaliztion 
+Index_and_object_initaliztion - gcp
+
 15.	Index_body_and_title.ipynb. -  הקובץ שיוצר את האינדקס לגוף ולכותרת המסמכים
 16.	PageRank.ipynb       -   סקיפט ליצירת   pr
 17.	Index_anc_creation.ipynb. – סקריפט ליצירת אינדקס לanc 
 
-Index classes 
+Index classes (gcp)
 
 18.	 Inverted_anc2.py. -  קלאס ליצירת אינדקס לanc
 19.	Inverted_title.py. אינדקס ליצירת ה כותרת
