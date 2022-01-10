@@ -26,4 +26,16 @@
 
 בנוסף העלנו את המחברת של הניסויים שערכנו:
 
-15. Expiraments.ipynb
+Expiraments.ipynb
+
+
+Index_and_object_initaliztion 
+15.	Index_body_and_title.ipynb. -  הקובץ שיוצר את האינדקס לגוף ולכותרת המסמכים
+16.	PageRank.ipynb       -   סקיפט ליצירת   pr
+17.	Index_anc_creation.ipynb. – סקריפט ליצירת אינדקס לanc 
+
+Index classes 
+
+18.	 Inverted_anc2.py. -  קלאס ליצירת אינדקס לanc
+19.	Inverted_title.py. אינדקס ליצירת ה כותרת
+20.	Inverted_index_gcp.  -      קובץ ליצירת האינדקס לגוף הטקסט
